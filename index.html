@@ -33,6 +33,32 @@
             .header-right{
                 width: 100%;
             }
+            .lets-you-row .left-column{
+                width: 50%
+            }
+            .lets-you-row .middle-column{
+                width: 50%
+            }
+            .lets-you-row .right-column{
+                width: 100%
+            }
+            .advance-table .img-head{
+                width: 100%;
+            }
+            .advance-table .left-column{
+                width: 100%;
+            }
+            .advance-table .right-column{
+                width: 100%;
+            }
+            .advance-table .left-column .left-store{
+                text-align: center;
+                width: 100%;
+            }
+            .advance-table .right-column .right-store{
+                text-align: center;
+                width: 100%;
+            }
         }
 
     </style>
@@ -95,7 +121,7 @@
                     <!-- end of header row -->
                     <!-- start of lets you.. row -->
                     <tr>
-                        <td class="lets-you-rpw" style="background: #fafafa">
+                        <td class="lets-you-row" style="background: #fafafa">
                             <h3 style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #333333; padding: 36px 0 5px 0; font-weight: 300; font-size: 24px;" align="center">Hero let's you...</h3>
                             <!-- start of left cloumn row -->
                             <table class="left-column" width="33.33%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px;">
@@ -178,7 +204,7 @@
                             <table class="advance-table" width="100%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 0px 15px; background: white;">
                             <tr>
                                 <td style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #333333; padding: 36px 0 5px 0; font-weight: 300; font-size: 24px;" align="center">
-                                    <img src="images/image_head.jpg" alt="">
+                                    <img class="img-head" src="images/image_head.jpg" alt="">
                                 </td>
                             </tr>
                             <tr>
@@ -195,7 +221,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="right">
+                                            <td align="right" class="left-store">
                                                 <img src="images/appstore.png" alt="">
                                             </td>
                                         </tr>
@@ -208,8 +234,8 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td align="left">
-                                                <img src="images/playstore.png" alt="">
+                                            <td align="left" class="right-store">
+                                                <img  src="images/playstore.png" alt="">
                                                 </td>
                                             </tr>
                                         </table>
