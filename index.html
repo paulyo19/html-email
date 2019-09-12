@@ -6,6 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Html emails</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+    <style>
+        /* DESKTOP */
+        @media only screen and (min-width: 960px) {
+            .container{
+                width: 960px;
+            }
+            .header-left{
+                padding: 36px 15px 70px 15px !important;
+            }
+        }
+        /* MIDSIZES */
+        @media only screen and (max-width: 960px) {
+            .container{
+                width: 600px;
+            }
+        }
+        /* MOBILE */
+        @media only screen and (max-width: 600px) {
+            .container{
+                width: 100%;
+            }
+            .header-left{
+                width: 100%; 
+            }
+            .header-right{
+                width: 100%;
+            }
+        }
+
+    </style>
 </head>
 <body style="background: black;">
     <!-- start of html email -->
@@ -39,7 +69,7 @@
                                 <tr>
                                     <td style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #7d7d7d;">
 
-                                        <table class="container" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 20px;">
+                                        <table class="menu-table" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="padding: 20px;">
                                             <tr>
                                                 <td align="center">
                                                     <a href="#" style="font-size: 14px; font-weight: 600; text-decoration: none;">About</a>
@@ -174,7 +204,7 @@
                                     <table class="right-column" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="padding: 15px 15px 70px 15px; background: white;"> 
                                         <tr>
                                             <td>
-                                                <p style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8;  font-size: 14px; padding: 0 0 30px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi, odio unde! Soluta, sed eum.</p>
+                                                <p style="font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif; color: #7f8887; font-weight: 400; line-height: 1.8;  font-size: 14px; padding: 0 0 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officia.</p>
                                             </td>
                                         </tr>
                                         <tr>
